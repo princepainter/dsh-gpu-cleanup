@@ -5,6 +5,7 @@
 > 典型场景：用 DSH 跑完一个本地模型任务后，模型仍驻留在显存里，直接去开 ComfyUI 会 OOM。点一下按钮即可卸载，无需重启 DSH。
 
 A DeepSeek Harness Web UI plugin that adds a **"Release GPU"** button next to the Session log button, unloading local Ollama (and any OpenAI-compatible) models on demand to free VRAM for ComfyUI / SDXL and other GPU workloads.
+<img width="1585" height="915" alt="image" src="https://github.com/user-attachments/assets/e7592c4c-4fae-4ad6-bbf0-959c30fe8590" />
 
 ## 功能特性
 
